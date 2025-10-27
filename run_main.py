@@ -10,6 +10,4 @@ files = {
 
 ts_data = fd.TSData(files, params)
 ts_model = TSModel(ts_data)
-
-print(ts_model.x_vars)
-
+roster = get_roster(ts_model, ts_data)
